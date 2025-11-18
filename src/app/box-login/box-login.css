@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.Container {
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo-car {
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  border: 3px solid #ddd;
+}
+
+.logo-car img.car {
+  width: 100%;
+  height: auto;
+}
+
+.car {
+    color: white;
+    font-size: 24px;
+
+}
+
+.paragrafo1 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+}
+.paragrafo2 {
+    opacity: 0.5;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+.email, .senha{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1a459e;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: opacity 0.4s;
+}
+
+.btn:hover {
+    opacity: 0.8s;
+}
+
+.btn-1 {
+    background: #000;
+    color: white;
+}
+
+.btn-2 {
+    background-color: white;
+    color: #000;
+    border: 1px solid #333;
+}
