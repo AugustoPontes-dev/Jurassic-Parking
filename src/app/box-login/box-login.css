@@ -63,28 +63,86 @@ html, body {
     text-align: center;
 }
 
-form {
-    text-align: left;
-}
-
-.email, .senha{
-    display: block;
-    font-size: 14px;
-    color: #333;
-}
-
-input {
+.form-container {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 15px;
-    transition: border-color 0.3s;
+    max-width: 420px;
 }
 
-input:focus {
+.form-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 6px solid #5b3ef0;
+}
+
+
+.form-box h2 {
+    color: #2a2a5c;
+    font-size: 1.7rem;
+    margin-bottom: 35px;
+}
+
+
+.input-group {
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 2px solid #d3d2f8;
     outline: none;
-    border-color: #1a459e;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    background: #fff;
+}
+
+.input-group input:focus {
+    border-color: #5b3ef0;
+    box-shadow: 0 0 0 3px rgba(91, 62, 240, 0.15);
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #555;
+    pointer-events: none;
+    transition: 0.2s;
+    background: #fff;
+    padding: 0 6px;
+}
+
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+    top: -8px;
+    font-size: 0.78rem;
+    color: #5b3ef0;
+}
+
+
+.form-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #5b3ef0;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-btn:hover {
+    background: #6c55ff;
 }
 
 .btn {
