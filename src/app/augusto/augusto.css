@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.selecao{
+    display: flex;
+    gap: 5vh;
+    background-color: rgba(94, 102, 114, 0.301);
+    width: 40vh;
+    height: 3vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 900;
+}
+.titulo{
+    margin-left: 2vh;
+}
+.diferente{
+    background-color: white;
+    height: 2vh;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius:30px;
+    border-color: rgba(94, 102, 114, 0.301) ;
+    width: 90vh;
+    height: 50vh;
+}
+h3{
+    font-weight: 700;
+    font-size: x-large;
+    margin-bottom: 3px;
+}
+p{
+    opacity: 60%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70vh;
+    align-items: center;
+    justify-items: center;
+    margin-left: 10%;
+    border: 1px solid;
+    height: 9vh;
+    border-radius: 10px;
+    margin-top: 1vh;
+    border-color: rgba(94, 102, 114, 0.301);
+}
+.esquerdacard{
+    margin-left: 1vh;
+}
+h4{
+    font-size: 20px;
+}
+
+.direitacard{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vh;
+}
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
+}
+.motivo{
+    background-color: rgba(94, 102, 114, 0.301);
+    border-radius: 5px;
+}
+.recargamot{
+    color: white;
+    background-color: gray;
+}
