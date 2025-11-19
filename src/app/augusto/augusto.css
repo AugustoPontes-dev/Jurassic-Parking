@@ -34,15 +34,16 @@ body{
     border-radius:30px;
     border-color: rgba(94, 102, 114, 0.301) ;
     width: 90vh;
-    height: 50vh;
+    height: 60vh;
 }
 h3{
     font-weight: 700;
     font-size: x-large;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
 }
 p{
     opacity: 60%;
+    margin-top: 0px;
 }
 .cards{
     display: flex;
@@ -58,7 +59,10 @@ p{
     border-color: rgba(94, 102, 114, 0.301);
 }
 .esquerdacard{
-    margin-left: 1vh;
+    margin-left: 2vh;
+    display:flex;
+    flex-direction: column;
+
 }
 h4{
     font-size: 20px;

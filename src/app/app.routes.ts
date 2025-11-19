@@ -5,7 +5,7 @@ import { Cadastrotela } from './pages/logintela/cadastrotela/cadastrotela';
 import { Reservastela } from './pages/logintela/reservastela/reservastela';
 
 export const routes: Routes = [
-  { path: 'qualquer coisa', component: Logintela },
+  { path: '', component: Logintela },
   { path: 'cadastro', component: Cadastrotela },
-  { path: '', component: Reservastela},
+  { path: 'reserva', component: Reservastela},
 ]; 

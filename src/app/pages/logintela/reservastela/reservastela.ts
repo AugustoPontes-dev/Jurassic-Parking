@@ -1,17 +1,11 @@
 import { Component } from '@angular/core';
-<<<<<<< HEAD
 import { Augusto } from "../../../augusto/augusto";
+import { Michael } from "../../../michael/michael";
 
 @Component({
   selector: 'app-reservastela',
-  imports: [Augusto],
-=======
-import { Michael } from '../../../michael/michael';
-
-@Component({
-  selector: 'app-reservastela',
-  imports: [Michael],
->>>>>>> d71d56308c77067e1d81f1fa9f103e2d4b62ed50
+  standalone: true,
+  imports: [Michael, Augusto],
   templateUrl: './reservastela.html',
   styleUrl: './reservastela.css',
 })
