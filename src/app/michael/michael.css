@@ -10,7 +10,6 @@ body {
     padding: 20px 40px;
 }
 
-/* ---------------- TOP BAR ---------------- */
 
 .top-bar {
     display: flex;
@@ -35,7 +34,6 @@ body {
     font-weight: bold;
 }
 
-/* ---------------- INFO CARDS ---------------- */
 
 .info-cards {
     display: flex;
@@ -69,7 +67,6 @@ body {
     color: #e63946;
 }
 
-/* ---------------- ACTION BUTTONS ---------------- */
 
 .actions {
     display: flex;
@@ -99,7 +96,7 @@ body {
     font-weight: bold;
 }
 
-/* ---------------- LIST AREA ---------------- */
+
 
 .list-area h3 {
     font-size: 18px;
