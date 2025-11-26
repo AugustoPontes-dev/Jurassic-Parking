@@ -7,10 +7,10 @@
             <p class="paragrafo2">Entre com as suas credenciais</p>
             <form>
                 <p class="email">Email</p>
-                <input type="e-mail" name="Nome" size="50" placeholder="seu@email.com">
+                <input type="e-mail" [(ngModel)]="email" name="Nome" size="50" placeholder="seu@email.com">
                 <p class="senha">Senha</p>
-                <input type="password" name="Senha" size="50" placeholder="******">
-                <button class="btn btn-1" type="submit" routerLink="reserva">Entrar</button>
+                <input type="password" [(ngModel)]="senha" name="Senha" size="50" placeholder="******">
+                <button class="btn btn-1" (click)="enviarLogin()" routerLink="reserva">Entrar</button>
                 <button class="btn btn-2" routerLink="/cadastro">Criar conta</button>
             </form>  
     </div>
