@@ -23,8 +23,8 @@ export class AuthService {
   }
 
   logout() {
-    localStorage.clear();
-    this.router.navigate(['/login']);
+   localStorage.clear();
+   this.router.navigate(['/']);
   }
 
   isAdmin(): boolean {
